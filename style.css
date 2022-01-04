@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+.welcome-sec  h1 {
+    font-size: 2em;
+} 
+
+.orange{
+    color: orange;
+}
+ 
+.half-width img {
+    width: 80%;
+  
+}
+
+.flexbox{
+   display: flex;
+   margin-bottom: 90px;
+}
+.half-width{
+    width: 50%;
+    padding: 3% 5%;
+} 
+ 
+.half-width p {
+    text-align: justify;
+    padding: 10px 0px;
+    font-size: 10px;
+    color: grey;
+
+
+} 
+
+
+.half-width h1 {
+    padding: 10px 0px;
+    font-size: 25px;
+} 
+
+.my-intro-text h3 {
+    padding: 7px 0px;
+    font-size: 13px;
+
+} 
+
+.btn {
+    font-weight: 600;
+   padding: 4px 15px;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(orange,tomato);;
+    outline: none;
+    font-size: 12px;
+    border: 1px solid rebeccapurple; 
+    font-family: cursive;
+}
+
+.welcome-sec {
+    background-image:  url(images/top-banner.png)  ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dream-sec {
+    /* background-image:  url(images/dream-bg.png)  ; 
+    background-size: cover;
+    background-repeat: no-repeat; */
+
+    background:  url(images/dream-bg.png) no-repeat  ; 
+background-position: right;
+
+}
+
+.half-width h4 {
+    margin-top: 5px;
+} 
+
+.experience h3 {
+    margin-bottom: 10px;
+}
+
+
+.shadow {
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+} 
+
+#full-stack {
+    margin-bottom: 15px;
+} 
+
+.experience-item p {
+    color: rgb(82, 79, 79);
+    text-align: justify;
+    font-size: 13px;
+}
+.experience-item {
+    width: 40%; 
+    font-size: 13px;
+    margin-left: 5%; 
+    box-shadow: 5px 5px 20px; 
+    padding: 13px;
+    border-radius: 5px;
+    
+} 
+
+.experience{
+    background-image:url(images/exp-bg.png); 
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left;
+    
+} 
+
+
+#web-dev {
+border-left: 4px solid;
+    border-image: linear-gradient(blue,cyan) ;
+    border-image-slice: 5;
+} 
+
+#baby-dev {
+
+    border-left: 4px solid;
+    border-image: linear-gradient(red,rgb(171, 201, 37));
+    border-image-slice: 4;
+
+} 
+
+footer {
+    text-align: center;
+    color: rgb(141, 141, 141);
+    font-size: 10px;
+    margin-bottom: 10px;
+}
